@@ -1,0 +1,107 @@
+.section1 {
+    display: flex;
+    align-items: center;
+}
+
+.kassa {
+    margin-top: 20px;
+    padding: 1.5rem;
+    box-shadow: 0px 0px 30px -11px rgba(34, 60, 80, 0.2);
+    border-radius: 20px;
+}
+
+.statistics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.st {
+    display: flex;
+    gap: 100px;
+}
+
+.market_block {
+    padding: 20px;
+    box-shadow: 0px 0px 30px -11px rgba(34, 60, 80, 0.2);
+    margin-top: 30px;
+}
+
+.market_button button {
+    margin-top: 20px;
+    background: #9155fd;
+    color: #fff;
+    padding: 7px 0;
+    width: 180px;
+    border-radius: 5px;
+    transition: 0.4s;
+    margin-right: 10px;
+}
+
+.inputs {
+    margin-top: 20px;
+}
+
+.inputs input {
+    border: 1px solid #000;
+    padding: 0px 10px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.inputs select {
+    border: 1px solid #000;
+    padding: 0px 10px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.close {
+    background: #ee0f43;
+    color: #fff;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.ok {
+    background: #4eeb36;
+    color: #fff;
+    padding: 5px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1100px) {
+    .statistics {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (max-width: 800px) {
+    .profit_block {
+        display: block;
+    }
+}
+
+@media (max-width: 650px) {
+    .statistics {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr ;
+    }
+}
+
+@media (max-width: 550px) {
+    .st {
+        display: block;
+    }
+
+    .st div {
+        margin-bottom: 10px;
+    }
+}

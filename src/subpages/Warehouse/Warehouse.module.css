@@ -1,0 +1,20 @@
+.warehouse_block {
+    padding: 20px;
+    box-shadow: 0px 0px 30px -11px rgba(34, 60, 80, 0.2);
+    border-radius: 20px;
+}
+
+.button {
+    background: #9155fd;
+    color: #fff;
+    padding: 7px 0;
+    width: 180px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.button:hover {
+    background: #fff;
+    color: #9155fd;
+    border: 2px solid #9155fd;
+}

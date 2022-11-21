@@ -1,0 +1,26 @@
+/* .candidates_card {
+    padding: 20px;
+    background: rgb(185, 208, 255);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+    transition: 0.4s;
+}
+.candidates_card:hover {
+    background: #fff ;
+    border: 2px solid #5282e9;
+    transform: translateY(-10px);
+}
+
+.candidates_card p {
+    font-size: 20px;
+}
+.candidates_card span {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.account {
+    font-size: 100px;
+} */

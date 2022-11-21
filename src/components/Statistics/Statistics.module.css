@@ -1,0 +1,87 @@
+.main_block {
+    padding: 1.5rem;
+}
+
+.profit_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.profit {
+    border: 12px solid #4eeb36;
+    background-color: rgba(54,235,78,.2)!important;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 30px;
+    min-width: 26vw;
+    margin-bottom: 20px;
+}
+
+.prihod {
+    background-color: rgba(42,154,238,.24)!important;
+    border: 12px solid #259be8;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 30px;
+    min-width: 26vw;
+    margin-bottom: 20px;
+}
+
+.rashod {
+    background-color: rgba(231,22,53,.2)!important;
+    border: 12px solid #ee0f43;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 30px;
+    min-width: 26vw;
+    margin-bottom: 20px;
+}
+
+.kassa {
+    margin-top: 20px;
+    padding: 1rem;
+    box-shadow: 0px 0px 30px -11px rgba(34, 60, 80, 0.2);
+    border-radius: 20px;
+}
+
+.statistics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.st {
+    display: flex;
+    gap: 100px;
+}
+
+@media (max-width: 1100px) {
+    .statistics {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (max-width: 800px) {
+    .profit_block {
+        display: block;
+    }
+}
+
+@media (max-width: 650px) {
+    .statistics {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr ;
+    }
+}
+
+@media (max-width: 550px) {
+    .st {
+        display: block;
+    }
+
+    .st div {
+        margin-bottom: 10px;
+    }
+}

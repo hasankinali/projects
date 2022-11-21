@@ -1,0 +1,48 @@
+.candidates_navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #5282e9;
+    padding: 20px;
+}
+
+.serch input {
+    padding: 10px;
+    min-width: 200px;
+    border-radius: 10px;
+    background: #fff;
+    border: none;
+}
+
+.serch button {
+    background: none;
+    transform: translateY(8px);
+}
+
+.serch {
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: #000;
+}
+
+.create_cond {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.candidates_value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.candidates_block {
+    justify-content: center;
+    grid-gap: 30px;
+    margin: 30px;
+}
